@@ -16,17 +16,17 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: "HelloWorld",
   props: {
     greetingText: {
       type: String,
-      default: '',
+      default: "",
     },
   },
   computed: {},
 
   methods: {},
-}
+};
 </script>
 
 <style scoped lang="scss"></style>
