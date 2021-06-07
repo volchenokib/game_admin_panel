@@ -34,7 +34,7 @@
 }
 
 .custom-headline {
-  font-family: Stalemate;
+  font-family: $accent-font-family;
   font-size: 3rem;
   font-weight: 400;
 }
@@ -44,7 +44,7 @@
 
   .link {
     font-weight: bold;
-    color: #2c3e50;
+    color: $secondary;
     text-decoration: none;
 
     &.router-link-exact-active {

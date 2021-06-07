@@ -22,7 +22,7 @@ module.exports = {
   rules: {
     "no-console": 1,
     "no-debugger": 1,
-    // strongly Recommended
+    // vue strongly Recommended
     "vue/no-template-shadow": 2,
     "vue/prop-name-casing": 2,
     "vue/require-default-prop": 2,
@@ -30,7 +30,7 @@ module.exports = {
     "vue/v-bind-style": 2,
     "vue/v-on-style": 2,
     "vue/v-slot-style": 2,
-    // recommended
+    // vue recommended
     "vue/attributes-order": 2,
     "vue/no-v-html": 2,
     "vue/order-in-components": 2,
