@@ -16,8 +16,8 @@
 </template>
 
 <style scoped>
-.medium {
-  font-size: 48px;
-  color: cornflowerblue;
-}
+  .medium {
+    font-size: 48px;
+    color: cornflowerblue;
+  }
 </style>

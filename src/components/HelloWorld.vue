@@ -15,18 +15,17 @@
 </template>
 
 <script>
-export default {
-  name: "HelloWorld",
-  props: {
-    greetingText: {
-      type: String,
-      default: "",
+  export default {
+    name: "HelloWorld",
+    props: {
+      greetingText: {
+        type: String,
+        default: "",
+      },
     },
-  },
-  computed: {},
-
-  methods: {},
-};
+    computed: {},
+    methods: {},
+  };
 </script>
 
 <style scoped lang="scss"></style>
