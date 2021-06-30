@@ -11,6 +11,8 @@
         >vue-cli documentation</a
       >.
     </p>
+
+    <button @click="sendRequest">Click</button>
   </div>
 </template>
 
@@ -24,7 +26,11 @@
       },
     },
     computed: {},
-    methods: {},
+    methods: {
+      sendRequest() {
+        this.$store.dispatch("fetchData");
+      },
+    },
   };
 </script>
 
