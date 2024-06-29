@@ -1,9 +1,5 @@
 <template>
   <div>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
     <center>
       <div
         style="width: 70%; height: 60px  margin-bottom: 20px;  margin-top: 100px;"
@@ -14,9 +10,9 @@
         <input v-model="form.url" />
         <label for="">Game Description</label>
         <input v-model="form.price" /><br /><br />
-        <button class="btn-primary" style="border-radius: 12%" @click="addItem">
-          Add Game
-        </button>
+        <b-button type="submit" variant="primary" @click="addItem"
+          >Add Game</b-button
+        >
       </div>
     </center>
 
