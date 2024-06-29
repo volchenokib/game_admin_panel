@@ -1,19 +1,16 @@
 <template>
-  <div class="home">
-    <hello-world greeting-text="Heading 1" />
-    <img alt="Vue logo" src="../assets/logo.png" />
+  <section class="home m-4">
+    <h1>Admin Panel</h1>
     <GameCard />
-  </div>
+  </section>
 </template>
 
 <script>
-  import HelloWorld from "@/components/HelloWorld.vue";
   import GameCard from "../components/GameCard.vue";
 
   export default {
     name: "Home",
     components: {
-      HelloWorld,
       GameCard,
     },
   };
